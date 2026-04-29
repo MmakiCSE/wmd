@@ -25,39 +25,67 @@
             </div>
         </div>
     </nav>
-  <div class="container-fluid bg-secondary-subtle border-bottom py-2 text-center">
-    <h6><strong>Free Delivery For Orders Over P500.00</strong></h6>
-  </div>
-
-  <main class="container-fluid mt4">
-    <div class="row">
-    </div>
-
-  <aside class"row">
-    <div class="p3 border rounded shadow-sm bg white">
-    </div>
-    
-  <h5>Categories</h5>
-  <ul>
-    <li>Laptops</li>
-    <li>Phones</li>
-    <li>Audio</li>
-  </ul>
+  <div class="bg-light border-bottom py-2 text-center">
+    <p class="mb-0 small">Free Shipping on orders Over P100.00</p>
 </div>
 
-  <div class="row">
-    <div class="col-md-4">
-      <div>
-        <p>Product Image</p>
-        <button>View Details</button>
-        <button>Add to Cart</button>
-      </div>
-    </div>
-  </div>
-  </aside>
-  </main>
-      </div>
-</body>
-      
+<main class="container mt-4">
+    <div class="row">
+        
+        <aside class="col-md-3">
+            <div class="p-3 border rounded shadow-sm bg-white">
+                
+                <h6 class="fw-bold border-bottom pb-2">Categories</h6>
+                <ul class="list-unstyled mb-4">
+                    <li><a href="#" class="text-decoration-none text-dark">Laptops</a></li>
+                    <li><a href="#" class="text-decoration-none text-dark">Phones</a></li>
+                    <li><a href="#" class="text-decoration-none text-dark">Audio</a></li>
+                </ul>
 
-  </html>
+                <h6 class="fw-bold border-bottom pb-2">Price Range</h6>
+                <div class="d-flex align-items-center gap-2 mb-4">
+                    <input type="number" class="form-control form-control-sm" placeholder="Min">
+                    <span>-</span>
+                    <input type="number" class="form-control form-control-sm" placeholder="Max">
+                </div>
+
+                <h6 class="fw-bold border-bottom pb-2">Brand</h6>
+                <ul class="list-unstyled mb-4">
+                    <li><input type="checkbox"> Apple</li>
+                    <li><input type="checkbox"> Samsung</li>
+                    <li><input type="checkbox"> Sony</li>
+                    <li><input type="checkbox"> Dell</li>
+                </ul>
+
+                <h6 class="fw-bold border-bottom pb-2">Ratings</h6>
+                <div class="small">
+                    <div><input type="checkbox"> 5★ Stars</div>
+                    <div><input type="checkbox"> 4★ Stars</div>
+                    <div><input type="checkbox"> 3★ Stars</div>
+                </div>
+            </div>
+        </aside>
+
+        <section class="col-md-9">
+            <div class="row g-4">
+                
+                <div class="col-md-4"> <div class="card h-100 shadow-sm border-0">
+                        <div class="bg-secondary-subtle text-center py-5 rounded-top">
+                            <span class="text-muted small">Product Image</span>
+                        </div>
+                        <div class="card-body text-center">
+                            <h6 class="card-title fw-bold">High-End Laptop</h6>
+                            <p class="text-primary fw-bold">P12,500.00</p>
+                            <div class="d-flex gap-2">
+                                <a href="#" class="btn btn-outline-dark btn-sm w-100">Details</a>
+                                <a href="#" class="btn btn-primary btn-sm w-100">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                </div>
+        </section>
+
+    </div>
+</main>
